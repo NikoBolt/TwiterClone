@@ -13,4 +13,7 @@ public class Application {
     // http://localhost:8080/greeting
     // &
     // http://localhost:8080/greeting?name=man
+    // &
+    // http://localhost:8080/
+
 }
