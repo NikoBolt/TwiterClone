@@ -10,4 +10,5 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
+    // http://localhost:8080/greeting
 }
