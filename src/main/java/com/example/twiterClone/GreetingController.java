@@ -40,6 +40,10 @@ public class GreetingController {
 
         messageRepo.save(message);
 
+        Iterable<Message> messages = messageRepo.findAll();
+
+        model.put("messages", messages);
+
         return "main";
     }
 }
